@@ -1,10 +1,10 @@
-@import url('fonts/stylesheet.css');
+@import url('./fonts/stylesheet.css');
 
 
 body {
     background: black;
     color: white;
-    font-family: 'SF Pro Display', 'Roboto', serif;
+    font-family: 'SF Pro Display', 'Roboto', sans-serif;
     width: 100vw;
     height: 100vh;
     display: flex;
