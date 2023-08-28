@@ -1,0 +1,67 @@
+@import url('fonts/stylesheet.css');
+
+
+body {
+    background: black;
+    color: white;
+    font-family: 'SF Pro Display', 'Roboto', serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+h1 {
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    height: min-content;
+    padding: 24px;
+}
+
+.container p {
+    font-size: 1.25em;
+    font-weight: 300;
+    color: #CCC;
+}
+
+.logo {
+    background-repeat: no-repeat;
+    background-image: url('./logo.svg');
+    width: 58px;
+    height: 72px;
+    margin: 0 auto 32px auto;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    color: white;
+    margin: 32px auto 0 auto;
+}
+
+.socials a {
+    color: white;
+    transition: 0.25s ease-out;
+    font-size: 1.75em;
+    width: 25%;
+    margin: 0 16px;
+}
+
+.socials a:hover {
+    color: #999;
+    transition: 0.25s ease-in;
+  
+}
